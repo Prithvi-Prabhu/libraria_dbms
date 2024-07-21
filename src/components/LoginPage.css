@@ -1,0 +1,93 @@
+/* Ensure the entire page is centered and has a white background */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white; /* White background */
+    font-family: 'Inira Serif', serif; /* Apply the font to the whole page */
+    text-align: center;
+    position: relative; /* Allow absolute positioning within this container */
+}
+
+/* Center the logo and title */
+.sign {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 20px; /* Adjust this value to move the logo down from the top */
+    /* Center the logo horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-sign {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    /* Center the title horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 100px; /* Adjust this value to move LIBRARIA higher */
+}
+
+/* Center the form container and adjust its appearance */
+.form-container {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Center the form container */
+}
+
+/* Style each form group to ensure alignment */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: black; /* Set text color to black */
+}
+
+.input-field {
+    width: calc(100% - 20px); /* Reduce width slightly */
+    padding: 10px;
+    border: 1px solid lightgrey; /* Light grey border for input fields */
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9; /* Light grey background for input fields */
+}
+
+.signup-button {
+    background-color: #b3d9ff; /* Light blue background */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Inira Serif', serif; /* Font for button text */
+}
+
+.signup-button:hover {
+    background-color: #99c2ff; /* Darker blue on hover */
+}
+
+.login-link {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Inira Serif', serif; /* Font for link text */
+}

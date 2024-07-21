@@ -1,0 +1,182 @@
+.profile-page {
+    display: flex;
+    height: 100vh;
+    font-family: 'Inira Serif', serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: linear-gradient(white 25%, #f5b4cc 25%); /* Softer pink */
+    border-right: 1px solid grey;
+    padding: 20px;
+}
+
+.logo-section {
+    margin-bottom: 30px;
+}
+
+.prof {
+    width: 50px;
+    height: 50px;
+    /* Center the logo horizontally */
+    display: block;
+    margin: 0 auto;
+}
+
+.title-prof {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    /* Center the title horizontally */
+    text-align: center;
+}
+
+.tag-prof {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.menu-section {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: block;
+    margin: 10px 0;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact-us {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.edit-profile-title {
+    font-size: 2.1rem; /* Slightly bigger */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.user-id {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.profile-pic-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: flex-end; /* Align items to the right */
+    margin-bottom: 10px;
+    /* Move the profile picture container up by 100px */
+    margin-top: -100px; /* Adjust as needed */
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-bottom: 5px; /* Space between the image and the text */
+}
+
+.change-profile-pic {
+    font-size: 0.9rem;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    /* Align text below the profile picture */
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: black;
+    position: relative;
+    top: -10px; /* Move label up */
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.username-field {
+    width: 40%; /* Reduced width */
+    display: inline-block;
+    vertical-align: top; /* Aligns with the select box */
+    margin-right: 10px; /* Adds space between username and user type */
+    position: relative;
+    top: -10px; /* Move input field up */
+}
+
+.user-type-field {
+    width: 20%; /* Reduced width */
+    display: inline-block;
+}
+
+/* New class for phone number field */
+.phone-field {
+    width: 30%; /* Reduced width */
+    display: inline-block;
+}
+
+.edit-button, .save-button {
+    padding: 12px 24px; /* Slightly wider */
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Inira Serif', serif;
+}
+
+.edit-button {
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.save-button {
+    background-color: #ffc4da; /* Slightly darker pink */
+    color: black;
+}
