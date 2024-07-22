@@ -1,0 +1,92 @@
+.supplier-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.supplier-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 72px); /* Adjust according to your menu height */
+}
+
+.supplier-wrapper .sd-sidebar {
+    background-color: #c8f2fc; /* Specific sidebar color for this page */
+}
+
+.supplier-content {
+    margin-left: 300px; /* Adjust based on the sidebar width */
+    padding: 100px;
+    width: calc(100% - 300px); /* Full width minus sidebar */
+    height: 100%; /* Full height of the content area */
+    box-sizing: border-box;
+    margin-top: 40px; /* Adjust this value to bring the content down */
+}
+
+.supplier-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.supplier-welcome {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.supplier-fields {
+    margin-bottom: 30px;
+}
+
+.supplier-field {
+    margin-bottom: 20px;
+}
+
+.supplier-field label {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.supplier-field-container {
+    display: flex;
+    align-items: center;
+}
+
+.supplier-input {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #D3D3D3; /* Light grey border */
+    margin-right: 10px;
+}
+
+.supplier-btn-enter {
+    background-color: #c8f2fc; /* Button color */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.supplier-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+    margin-top: 30px; /* Space above buttons */
+}
+
+.supplier-btn-view {
+    background-color: #c8f2fc; /* Button color */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%; /* Width of the container */
+    font-size: 1rem; /* Font size */
+    border-radius: 8px; /* Rounded corners */
+}

@@ -15,10 +15,15 @@ const Profile = ({ userId, profilePic }) => {
                     <p className="tag-prof">A world of wonder at your fingertips</p>
                 </div>
                 <div className="menu-section">
+                    <br></br>
                     <Link to="/" className="menu-item">LOGOUT</Link>
+                    <br></br>
                     <Link to="/home" className="menu-item">HOME</Link>
+                    <br></br>
                     <Link to="/about" className="menu-item">ABOUT US</Link>
+                    <br></br>
                     <hr />
+                    <br></br>
                     <p className="contact-us">CONTACT US</p>
                     <div className="contact-info">
                         <img src={mailIcon} alt="Mail Icon" className="contact-icon" />

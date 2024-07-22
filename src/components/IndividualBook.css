@@ -1,0 +1,101 @@
+.individualbook-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.individualbook-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px; /* Adjust based on the sidebar width */
+    padding: 100px; /* Adjust padding to match the spacing from the Bookseller page */
+    width: calc(100% - 300px); /* Full width minus sidebar */
+    height: 100%; /* Full height of the content area */
+    box-sizing: border-box;
+}
+
+.book-cover {
+    width: 200px; /* Adjust size as needed */
+    height: 300px;
+    margin-right: 100px; /* Adjust spacing between image and text */
+    border: 2px solid black; /* Rectangle frame around the image */
+    padding: 10px; /* Padding inside the frame */
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.book-title {
+    font-size: 1.2rem; /* Adjust font size to match Bookseller title */
+    font-weight: bold; /* Make TITLE label bold */
+    color: black;
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.book-author {
+    font-size: 1.2rem; /* Adjust font size to match Bookseller welcome text */
+    color: black;
+}
+
+.book-author strong {
+    font-weight: bold; /* Make AUTHOR label bold */
+}
+
+.book-author a {
+    color: black; /* Match the text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Optional: Add hover effect */
+.book-author a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}
+
+.book-summary {
+    font-size: 1.2rem; /* Adjust font size for summary */
+    color: black;
+}
+
+.book-summary strong {
+    font-weight: bold; /* Make SUMMARY label bold */
+}
+
+.book-additional-info {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: black;
+    font-weight: normal; /* Ensure additional info is not bold */
+}
+
+.book-additional-info p {
+    margin-bottom: 10px; /* Add margin for spacing */
+    font-weight: bold; /* Make Details: label bold */
+    text-decoration: underline; /* Underline the Details: label */
+}
+
+.book-additional-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-additional-info li {
+    margin-bottom: 8px;
+}
+
+.book-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid columns based on screen size */
+    gap: 15px; /* Space between images */
+    margin-top: 40px; /* Add margin for spacing */
+}
+
+.book-images-grid img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Optional border around images */
+    border-radius: 5px; /* Optional rounded corners */
+    object-fit: cover; /* Ensure image covers the grid cell */
+}

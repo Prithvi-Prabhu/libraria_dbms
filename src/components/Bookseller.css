@@ -1,0 +1,105 @@
+.bookseller-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bookseller-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 72px); /* Adjust according to your menu height */
+}
+
+.bookseller-wrapper .sd-sidebar {
+    background-color: #CCB8DE; /* Specific sidebar color for this page */
+}
+
+.bs-content {
+    margin-left: 300px; /* Adjust based on the sidebar width */
+    padding: 100px;
+    width: calc(100% - 300px); /* Full width minus sidebar */
+    height: 100%; /* Full height of the content area */
+    box-sizing: border-box;
+    margin-top: 40px; /* Adjust this value to bring the content down */
+}
+
+
+.bs-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bs-welcome {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.bs-fields {
+    margin-bottom: 30px;
+}
+
+.bs-field {
+    margin-bottom: 20px;
+}
+
+.bs-field label {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.bs-field-container {
+    display: flex;
+    align-items: center;
+}
+
+.bs-input {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    border: 1px solid #D3D3D3; /* Light grey border */
+    margin-right: 10px;
+}
+
+.bs-btn-enter {
+    background-color: #BDA5D6; /* Slightly darker purple */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bs-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+    margin-top: 30px; /* Space above buttons */
+}
+
+.bs-btn-view {
+    background-color: #BDA5D6; /* Slightly darker purple */
+    color: black;
+    padding: 10px 20px; /* Adjust padding */
+    border: none;
+    cursor: pointer;
+    width: 25%; /* Width of the container */
+    font-size: 1rem; /* Font size */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.bs-btn-order {
+    background-color: white; /* White button */
+    color: black;
+    padding: 12px 25px; /* Adjust padding */
+    border: 1px solid #BDA5D6; /* Border color to match the theme */
+    cursor: pointer;
+    width: 15%; /* Width of the container */
+    font-size: 0.8rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 8px; /* Rounded corners */
+}

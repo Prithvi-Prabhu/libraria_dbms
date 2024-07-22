@@ -27,11 +27,11 @@
 }
 
 .text-section {
+    padding-top:40px;
     text-align: left; /* Align text to the left */
     flex: 1;
-    margin-top: -60px; /* Move the text section up */
+    margin-top: -40px; /* Move the text section up */
 }
-
 
 .title {
     font-family: 'Inira Serif', serif;
@@ -46,7 +46,6 @@
     margin-bottom: 20px; /* Reduce space below tagline */
     margin-left: 100px; /* Keep alignment with title */
 }
-
 
 .button-container {
     display: flex;
@@ -64,15 +63,15 @@
     border-radius: 5px;
 }
 
-.sign-up {
-    background-color: black;
-    color: white;
+.landing-sign-up {
+    background-color: black !important; /* Ensure background color is black */
+    color: white !important; /* Ensure text color is white */
 }
 
-.login {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+.landing-login {
+    background-color: white !important; /* Ensure background color is white */
+    color: black !important; /* Ensure text color is black */
+    border: 1px solid black !important; /* Ensure border color is black */
 }
 
 .image-container {

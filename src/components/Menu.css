@@ -1,0 +1,51 @@
+.menu-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    font-family: 'Inira Serif', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.menulogo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.menu-item {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu-search {
+    margin-left: auto;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.menu-profile-pic-container {
+    margin-left: 20px;
+}
+
+.menu-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+}

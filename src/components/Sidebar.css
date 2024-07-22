@@ -1,0 +1,52 @@
+.sd-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: var(--sidebar-bg-color, #f5b4cc); /* Default color or overridden in specific page CSS */
+    border-right: 1px solid grey;
+    padding: 20px;
+    box-sizing: border-box; /* Prevents overflow */
+    position: fixed; /* Fixed positioning to cover full height */
+    top: 72px; /* Adjust to the height of the menu bar */
+    bottom: 0; /* Cover from the top to the bottom */
+}
+
+.sd-menu-item {
+    margin-bottom: 20px;
+}
+
+.sd-logout {
+    color: black;
+    text-decoration: underline;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.sd-logout:hover {
+    font-weight: bold;
+}
+
+.sd-divider {
+    border: none;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
+
+.sd-contact-us {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.sd-contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.sd-contact-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}

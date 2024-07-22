@@ -1,0 +1,79 @@
+.individualauthor-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+}
+
+.individualauthor-content {
+    display: flex;
+    flex-direction: column; /* Stack author-section and more-from-author vertically */
+    margin-left: 300px; /* Adjust based on the sidebar width */
+    padding: 100px; /* Adjust padding to match the spacing from the Bookseller page */
+    width: calc(100% - 300px); /* Full width minus sidebar */
+    height: 100%; /* Full height of the content area */
+    box-sizing: border-box;
+}
+
+.author-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items at the start */
+    margin-bottom: 40px; /* Space below author-section */
+}
+
+.author-image {
+    width: 200px; /* Adjust size as needed */
+    height: 300px;
+    margin-right: 100px; /* Adjust spacing between image and text */
+    border: 2px solid black; /* Rectangle frame around the image */
+    padding: 10px;/* Padding inside the frame */
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.author-name {
+    font-size: 1.2rem; /* Adjust font size to match Bookseller title */
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+.author-about {
+    font-size: 1.2rem; /* Adjust font size for summary */
+    color: black;
+    font-weight: bold;
+    margin-bottom: 40px; /* Add margin for spacing */
+}
+
+.more-from-author {
+    margin-top: 20px; 
+    margin-left: 320px;/* Adjust spacing from previous section */
+}
+
+.more-from-title {
+    font-size: 1rem; /* Smaller font size */
+    font-weight: normal; /* Normal font weight */
+    color: black;
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.book-images-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* Space between images */
+}
+
+.book-thumbnail {
+    width: 100%;
+    height: 175px; /* Fixed height for all images */
+    max-width: 120px; /* Fixed width for consistency */
+    object-fit: cover; /* Ensure images fit within their container */
+    border: 2px solid black; /* Black frame around the image */
+    box-sizing: border-box; /* Include border in the element's total width and height */
+}
+

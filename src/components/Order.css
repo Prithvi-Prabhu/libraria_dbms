@@ -1,0 +1,104 @@
+.order-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.order-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 72px); /* Adjust according to your menu height */
+}
+
+.order-wrapper .sd-sidebar {
+    background-color: #CCB8DE; /* Specific sidebar color for this page */
+}
+
+.order-content {
+    margin-left: 300px; /* Adjust based on the sidebar width */
+    padding: 100px;
+    width: calc(100% - 300px); /* Full width minus sidebar */
+    height: 100%; /* Full height of the content area */
+    box-sizing: border-box;
+    margin-top: 40px; /* Adjust this value to bring the content down */
+}
+
+.order-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.order-welcome {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.order-fields {
+    margin-bottom: 20px; /* Slightly reduce space */
+}
+
+.order-field-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px; /* Space between field rows */
+}
+
+.order-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-input, .order-qty-input {
+    padding: 10px;
+    border: 1px solid #D3D3D3; /* Light grey border */
+}
+
+.order-input {
+    width: 200px; /* Adjust width as needed */
+}
+
+.order-qty-input {
+    width: 50px; /* Smaller input field for quantity */
+}
+
+.order-address-input {
+    width: 450px; /* Wider input field for address */
+    padding: 10px;
+    border: 1px solid #D3D3D3; 
+}
+
+.order-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+    margin-top: 30px; /* Space above buttons */
+}
+
+.order-btn-show {
+    background-color: #BDA5D6; /* Slightly darker purple */
+    color: black;
+    padding: 10px 20px; /* Adjust padding */
+    border: none;
+    cursor: pointer;
+    width: 25%; /* Width of the container */
+    font-size: 1.1rem; /* Font size */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.order-btn-order {
+    background-color: white; /* White button */
+    color: black;
+    padding: 12px 25px; /* Adjust padding */
+    border: 1px solid #BDA5D6; /* Border color to match the theme */
+    cursor: pointer;
+    width: 15%; /* Width of the container */
+    font-size: 0.8rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 8px; /* Rounded corners */
+}

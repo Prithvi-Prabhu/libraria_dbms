@@ -13,8 +13,8 @@ const LandingPage = () => {
                     <h1 className="title">LIBRARIA</h1>
                     <p className="tagline">A world of wonder at your fingertips</p>
                     <div className="button-container">
-                        <Link to="/signup" className="btn sign-up">Sign up</Link>
-                        <Link to="/login" className="btn login">Login</Link>
+                        <Link to="/signup" className="btn landing-sign-up">Sign up</Link>
+                        <Link to="/login" className="btn landing-login">Login</Link>
                     </div>
                 </div>
                 <div className="image-container">

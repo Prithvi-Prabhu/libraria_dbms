@@ -1,0 +1,110 @@
+.about-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    font-family: 'Inira Serif', serif;
+}
+
+.abtus-wrapper {
+    padding-top: 72px; /* Adjust this value as needed */
+}
+
+.abtus-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 20px); /* Full height minus the height of the menu bar */
+    box-sizing: border-box;
+}
+
+
+.left-images, .abt-text, .right-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-images {
+    
+    width: 540px; /* Same width as sidebar */
+    height: calc(100vh - 72px); /* Same height as sidebar */
+     /* Same background color as sidebar */
+    border-right: 1px solid grey; /* Same border as sidebar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-images {
+    width: 540px; /* Same width as sidebar */
+    height: calc(100vh - 72px); /* Same height as sidebar */
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.abt-img {
+    width: 100%;
+    height: 50%; /* Each image should take half of the container height */
+    object-fit: cover;
+}
+
+.abt-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align the text */
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 20px; /* Add some spacing around the text container */
+    flex: 1;
+}
+
+.about-us-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.contact-us {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: black;
+    font-size: 1rem;
+}
+
+.contact-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
